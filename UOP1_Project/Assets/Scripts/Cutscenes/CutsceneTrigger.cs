@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.Playables;
 
 /// <summary>
@@ -31,6 +31,7 @@ public class CutsceneTrigger : MonoBehaviour
 			if (_questManager.IsNewGame())
 			{
 				_playableDirector.Play();
+				// Test for GitHub.
 			}
 		}
 }
